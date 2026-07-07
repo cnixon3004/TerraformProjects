@@ -75,6 +75,7 @@ terraform apply
 
 Working through this project reinforced how Terraform's plan/apply cycle protects against unintended changes, and how something as small as enabling S3 versioning is actually a one-way door (you can suspend it, but never fully turn it back off). It also gave me a much better feel for how variables, provider blocks, and resource blocks work together instead of just reading about them.
 
+I also came away with a real appreciation for how much structuring your files and folders properly matters — separating main, providers, variables, and outputs instead of dumping everything into one file made the project far easier to reason about and will make it much easier to extend later. And for now, I'm holding off on pressing the big red terraform destroy button — I'd rather keep this bucket up and iterate on it as I work through the future improvements listed below.
 ## Future Improvements
 
 - [ ] Move state to a remote backend (S3 + DynamoDB for locking)
