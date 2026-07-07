@@ -51,13 +51,16 @@ terraform validate
 ```bash
 terraform plan
 ```
+![Terrafrom plan](/Terraform_s3_labs/Images/plan.png)
 
 **5. Apply the configuration:**
 ```bash
 terraform apply
 ```
+![Terrafrom apply](/Terraform_s3_labs/Images/apply.png)
 
 **6. Verify in the AWS Console** that the S3 bucket was created with versioning enabled.
+![Buckets](/Terraform_s3_labs/Images/buckets.png)
 
 ## Key Concepts Demonstrated
 
