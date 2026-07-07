@@ -8,18 +8,6 @@ A hands-on Infrastructure as Code project that provisions an AWS S3 bucket using
 ![Architecture](/Terraform_s3_labs/Images/terraform_s3_architecture.png)
 `[Terraform CLI] → [AWS Provider] → [S3 Bucket (versioning enabled)]`
 
-## Repo Structure
-
-```
-.
-├── main.tf              # Resource definitions (S3 bucket)
-├── providers.tf         # AWS provider configuration
-├── variables.tf         # Input variable declarations
-├── terraform.tfvars     # Variable values (not committed if sensitive)
-├── outputs.tf           # Output values (e.g. bucket ARN, name)
-└── README.md
-```
-
 ## Prerequisites
 
 - [Terraform](https://developer.hashicorp.com/terraform/downloads) installed
