@@ -33,6 +33,7 @@ A hands-on Infrastructure as Code project that provisions an AWS S3 bucket using
 terraform version
 aws sts get-caller-identity
 ```
+![Verification](/Terraform_s3_labs/Images/validation.png)
 
 **2. Initialize the working directory:**
 ```bash
