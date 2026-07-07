@@ -45,6 +45,7 @@ terraform init
 ```bash
 terraform validate
 ```
+![Terraform init](/Terraform_s3_labs/Images/init.png)
 
 **4. Preview the changes:**
 ```bash
