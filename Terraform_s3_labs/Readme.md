@@ -5,8 +5,7 @@
 A hands-on Infrastructure as Code project that provisions an AWS S3 bucket using Terraform, with versioning enabled to protect against accidental overwrites and deletions. Built to practice core Terraform workflow fundamentals: provider configuration, variables, state management, and the plan/apply lifecycle.
 
 ## Architecture
-[Architecture](
-<!-- Add a simple diagram or screenshot here, e.g. a draw.io export or the AWS console screenshot of the created bucket -->
+![Architecture](/Terraform_s3_labs/Images/terraform_s3_architecture.png)
 `[Terraform CLI] → [AWS Provider] → [S3 Bucket (versioning enabled)]`
 
 ## Repo Structure
