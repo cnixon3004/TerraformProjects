@@ -44,9 +44,13 @@ Think of it like this: the **VPC is the neighborhood**, and the **subnets are th
    
 5. **Built the network in `main.tf`:**
    - Added `data` blocks to pull region, caller identity, and availability zone info dynamically.
+     ![Data](/VPC_SG/Images/data.png)
    - Created the VPC with one public subnet and one private subnet, both in the same Availability Zone.
+     ![AZ](/VPC_SG/Images/vpc_subnet.png)
    - Created a route table and associated both subnets with it.
+     ![Route Table](/VPC_SG/Images/route_table.png)
    - Added a security group allowing only HTTP/HTTPS traffic as a basic security baseline.
+     ![Security Group](/VPC_SG/Images/SG.png)
 
 6. **Validated the tfvars file** to confirm all values were correct before deploying.
    ![tfvars](/VPC_SG/Images/tfvars.png)
@@ -65,6 +69,7 @@ Think of it like this: the **VPC is the neighborhood**, and the **subnets are th
 ## 🎯 Key Takeaways
 
 - Getting more comfortable reading and writing HCL syntax.
+- Getting better at understanding how to use variables.
 - Understanding how `data` blocks pull live account/region info into a configuration.
 - Practicing the full Terraform workflow: `fmt` → `validate` → `plan` → `apply`.
 - Thinking about infrastructure as *reusable building blocks* rather than one-off resources — this VPC is meant to be the foundation for future labs.
