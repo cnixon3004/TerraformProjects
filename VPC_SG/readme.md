@@ -33,6 +33,7 @@ Think of it like this: the **VPC is the neighborhood**, and the **subnets are th
    ![File Structure](/VPC_SG/Images/file_structure.png)
    
 2. **Configured the provider** — pinned the required version close to the local Terraform install, set the target region (`us-east-1`), and applied default tags to all resources.
+ 
   ![Providers](/VPC_SG/Images/providers.png)
 
 3. **Declared variables** in `variables.tf` and assigned real values in `terraform.tfvars`.
