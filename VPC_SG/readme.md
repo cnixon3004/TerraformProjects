@@ -57,7 +57,9 @@ Think of it like this: the **VPC is the neighborhood**, and the **subnets are th
    terraform plan       # Preview the changes
    terraform apply -auto-approve
    ```
+   ![Apply](/VPC_SG/Images/apply.png)
 10. **Verified the build** by logging into the AWS Console and confirming the VPC, subnets, route table, and security group were created as expected.
+    ![Console](/VPC_SG/Images/console.png)
 
 ## 🎯 Key Takeaways
 
