@@ -82,7 +82,14 @@ The VPC now includes an Internet Gateway and a default route for the public subn
 ### Resources Added
 - Internet Gateway
 - Default Route (0.0.0.0/0)
-  
+
+   ![Internet Gateway](/VPC_SG/Images/igw.png)
+
+   **Internet Gateway
+
+  ![Route to the Internet](/VPC_SG/Images/route.png)
+
+   **Route to the Internet
   
 
 ## 🚀 Next Steps
