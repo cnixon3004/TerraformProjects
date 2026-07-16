@@ -74,6 +74,17 @@ Think of it like this: the **VPC is the neighborhood**, and the **subnets are th
 - Practicing the full Terraform workflow: `fmt` → `validate` → `plan` → `apply`.
 - Thinking about infrastructure as *reusable building blocks* rather than one-off resources — this VPC is meant to be the foundation for future labs.
 
+  #Terraform Internet Gateway
+  ## Internet Connectivity
+
+The VPC now includes an Internet Gateway and a default route for the public subnet.
+
+### Resources Added
+- Internet Gateway
+- Default Route (0.0.0.0/0)
+  
+  
+
 ## 🚀 Next Steps
 
 - Expand subnets across multiple Availability Zones for high availability.
